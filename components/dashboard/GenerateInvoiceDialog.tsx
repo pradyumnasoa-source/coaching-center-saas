@@ -11,7 +11,7 @@ import { Plus } from 'lucide-react'
 import type { Student, Batch } from '@/lib/types'
 
 interface StudentWithBatch extends Student {
-  batches: Batch | null
+  batches: Batch | undefined
 }
 
 interface Props {
